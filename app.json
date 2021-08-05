@@ -1,6 +1,3 @@
-  "stack": "container",
-  "formation": {
-    "worker": {
-      "quantity": 1
-    }
-  }
+{
+  "stack": "container"
+}
