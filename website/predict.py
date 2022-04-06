@@ -16,13 +16,13 @@ IMG_RES = {
 }
 
 CLASSES = {
-    0: "actinic keratoses and intraepithelial carcinomae (Cancer)",
-    1: "basal cell carcinoma (Cancer)",
-    2: "benign keratosis-like lesions (Non-Cancerous)",
-    3: "dermatofibroma (Non-Cancerous)",
-    4: "melanocytic nevi (Non-Cancerous)",
-    5: "pyogenic granulomas and hemorrhage (Can lead to cancer)",
-    6: "მელანომა (ონკოლოგია)"
+    0: "ინტრაეპითელური კარცინომა (ავთვისებიანი)",
+    1: "ბაზალური უჯრედების კარცინომა (ავთვისებიანი)",
+    2: "კერატოზი (კეთილთვისებიანი)",
+    3: "დერმატოფიბრომა (კეთილთვისებიანი)",
+    4: "მელანოციტური ნევუსი (კეთილთვისებიანი)",
+    5: "პიოგენური გრანულომა (კეთილთვისებიანი)",
+    6: "მელანომა (ავთვისებიანი)"
 }
 
 
