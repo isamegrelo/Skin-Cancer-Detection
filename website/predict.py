@@ -22,7 +22,7 @@ CLASSES = {
     3: "dermatofibroma (Non-Cancerous)",
     4: "melanocytic nevi (Non-Cancerous)",
     5: "pyogenic granulomas and hemorrhage (Can lead to cancer)",
-    6: "melanoma (Cancer)"
+    6: "მელანომა (ონკოლოგია)"
 }
 
 
