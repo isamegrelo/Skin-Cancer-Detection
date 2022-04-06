@@ -11,15 +11,15 @@ ALLOWED_EXTENSIONS = set(["png", "jpg", "jpeg"])
 
 def allowed_file(image):
     if not image:
-        flash("No image uploaded.", category="error")
+        flash("ფოტო არ არის ატვირთული", category="error")
         return False
     
     if not image.mimetype:
-        flash("Bad upload, try again.", category="error")
+        flash("არასწორი ატვირთვა, სცადეთ ხელახლა", category="error")
         return False
     
     if image.mimetype.split('/')[-1] not in ALLOWED_EXTENSIONS:
-        flash("Uploaded file is not an image.", category="error")
+        flash("ატვირთული ფაილი არ არის ფოტო.", category="error")
         return False
     
     return True
@@ -41,7 +41,7 @@ def home():
         if allowed_file(image):
             filename = secure_filename(image.filename)
             image.save(os.path.join(UPLOAD_FOLDER, filename))
-            flash("Image uploaded successfully.", category="success")
+            flash("ფოტო წარმატებით აიტვირთა.", category="success")
             
             prediction = predict(filename)
             
